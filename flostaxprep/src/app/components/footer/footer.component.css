@@ -1,0 +1,8 @@
+#footer-section{padding:20px 80px; background-color: #111; color:#FFF;}
+.footer-social-icons i{padding-right: 10px;}
+
+@media screen and (max-width:400px){
+    #footer-section .col{display: block; text-align: left;} 
+    .footer-social-col{text-align: left !important; margin-top: 15px;}
+    .footer-section{padding: 20px !important;}
+} 

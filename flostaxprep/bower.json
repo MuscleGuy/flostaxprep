@@ -1,0 +1,21 @@
+{
+  "name": "flostaxprep",
+  "description": "",
+  "main": "",
+  "authors": [
+    "MarkAnthony <20306343+MuscleGuy@users.noreply.github.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MuscleGuy/flostaxprep",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
