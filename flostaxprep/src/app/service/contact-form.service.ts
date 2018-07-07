@@ -9,6 +9,7 @@ export class ContactFormService {
 
   showContactForm(){
     console.log('Show Contact Form');
+    
   }
 
   showMobileContactForm(){

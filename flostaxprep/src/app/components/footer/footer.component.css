@@ -1,6 +1,6 @@
 #footer-section{padding:20px 80px; background-color: #111; color:#FFF;}
 .footer-social-icons i{padding-right: 10px;}
-.mobile-consultation-row{position: fixed; bottom: 0; left: 0; min-height: 40px; background-color: #3b8381; color: #FFF; width: 100%; margin: 0px !important; padding: 5%; font-size: 1.3em; border-top: 2px solid #fff;}
+.mobile-consultation-row{position: fixed; bottom: 0; left: 0; min-height: 40px; background-color: #3b8381; color: #FFF; width: 100%; margin: 0px !important; padding: 5%; font-size: 1.3em; border-top: 2px solid #fff; display:none;}
 .mobile-consultation-row col{text-align: center !important;}
 .mobile-consultation-row:hover{cursor: pointer;}
 .mobile-consultation-div{text-align: center;}
@@ -10,6 +10,7 @@
     #footer-section .col{display: block;} 
     .footer-social-col{text-align: left !important; margin-top: 15px;}
     .footer-section{padding: 20px !important;}
+    ..mobile-consultation-row{display: block;}
 } 
 
 @media screen and(max-width:330px){
