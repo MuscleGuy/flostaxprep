@@ -1,0 +1,14 @@
+#solutions-section{}
+.solution{padding: 5% 2%;}
+.solution1{background-color: #275756; background-image: url('/../../assets/solutions/dallas-skyline.png'); background-size: 100% auto; background-repeat: no-repeat; background-position-y: 150px;}
+.solution2{background-color: #8d8d93;}
+.solution3{background-color: #FFF;}
+.solution4{background-color: #f3f3f4;}
+.solution-title{font-size: 1.5em; font-family: aveNext-demi, sans-serif; padding-bottom: 15px;}
+.solution-blurb{font-size: 1.2em; font-family: ave-ul, sans-serif;} 
+.solution1-btn{margin-top: 20px;}
+
+@media screen and (max-width:768px){
+        .solution{padding: 5% 7%;}
+    .solution1-btn{width:90%;}
+} 

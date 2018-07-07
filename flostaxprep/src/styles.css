@@ -1,0 +1,81 @@
+@font-face {font-family: ave-ul; src: url('assets/fonts/AvenirNext-UltraLight.ttf');}
+@font-face {font-family: ave-lt; src: url('assets/fonts/Avenir-Light.ttf');}
+@font-face {font-family: ave-md; src: url('assets/fonts/Avenir-Medium.ttf');}
+@font-face {font-family: ave-bk; src: url('assets/fonts/Avenir-Book.ttf');}
+@font-face {font-family: ave-rm; src: url('assets/fonts/Avenir-Roman.ttf');}
+@font-face {font-family: ave-hv; src: url('assets/fonts/Avenir-Heavy.ttf');}
+@font-face {font-family: ave-blk; src: url('assets/fonts/Avenir-Black.ttf');}
+@font-face {font-family: chalk; src: url('assets/fonts/Chalkduster.ttf');}
+
+@font-face {font-family: aveNext-bold; src: url('assets/fonts/AvenirNext-Bold.ttf');}
+@font-face {font-family: aveNext-demi; src: url('assets/fonts/AvenirNext-DemiBold.ttf');}
+@font-face {font-family: aveNext-hv; src: url('assets/fonts/AvenirNext-Heavy.ttf');}
+@font-face {font-family: aveNext-md; src: url('assets/fonts/AvenirNext-Medium.ttf');}
+@font-face {font-family: aveNext-reg; src: url('assets/fonts/AvenirNext-Regular.ttf');}
+@font-face {font-family: aveNext-ul; src: url('assets/fonts/AvenirNext-UltraLight.ttf');}
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;font-family: ave-bk, sans-serif;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block; width:100%;;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+a,a:hover{text-decoration: none !important;}
+.white{color:#FFF;}
+.black{color:#000;}
+
+.ave-ul{font-family: ave-ul, sans-serif;}
+.ave-lt{font-family: ave-lt, sans-serif;}
+.ave-md{font-family: ave-md, sans-serif;}
+.ave-bk{font-family: ave-bk, sans-serif;}
+.ave-rm{font-family: ave-rm, sans-serif;}
+.ave-hv,.strong, .bold{font-family: ave-hv, sans-serif;}
+.ave-blk{font-family: ave-blk, sans-serif;}
+.chalk{font-family: chalk, sans-serif;}
+
+.aveNext-bold{font-family: aveNext-bold, sans-serif;}
+.aveNext-demi{font-family: aveNext-demi, sans-serif;}
+.aveNext-hv{font-family: aveNext-hv, sans-serif;}
+.aveNext-md{font-family: aveNext-md, sans-serif;}
+.aveNext-reg{font-family: aveNext-reg, sans-serif;}
+.aveNext-ul{font-family: aveNext-ul, sans-serif;}
+
+
+.height-100{height: 100%;}
+
+.absolute{position: absolute; left: 0; top: 0;}
+.relative{position: relative;}
+.color{color:#3b8381;}
+
+.default-btn-color{padding:8px 15px; background: #3b8381; color: #ddd;}
+.default-btn{color:#fff; border:1px solid #fff; background-color: #3b8381; padding:12px;}
+.inverse-btn{color:#3b8381; border:1px solid #3b8381; background-color: #fff; padding:12px;}
+.white-btn{color:#fff; border:1px solid #fff; background-color:transparent; padding:12px;}
+.default-btn:hover, .inverse-btn:hover, .white-btn:hover{cursor: pointer;}
+
+.flex-container{display: flex; align-content: center; justify-content: center; align-items: center;}
+.block{display: block;}
+
+.section-divider{padding-top:2.5px; padding-bottom:2.5px; padding-left: 0px !important; padding-right: 0px !important; margin: 0px; display: block; background-color:#3b8381;}
+
+.align-left{text-align: left;}
+.align-right{text-align: right;}
+.align-center{text-align: center;}
+
+.default-shadow{box-shadow: 0px 0px 100px rgba(51,51,51,.8);}
+
+.pb-10{padding-bottom:10px;}
+.pb-20{padding-bottom:20px;}
+.pb-30{padding-bottom:30px;}
+.pb-40{padding-bottom:40px;}
+.pb-50{padding-bottom:50px;}
+.pb-60{padding-bottom:60px;}
+.pb-70{padding-bottom:70px;}
+.pb-80{padding-bottom:80px;}
+.pb-90{padding-bottom:90px;}
+
+@media screen and (max-width:600px){
+    .row{display: block  !important;}
+}

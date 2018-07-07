@@ -1,0 +1,12 @@
+#contact-section{background-color: #275756; padding:3%}
+.contact-title{font-size: 2em; font-family: aveNext-demi; margin-bottom: 15px;}
+.contact-blurb{font-size: 1.2em;}
+.contact-btns{padding-top: 15px;}
+.contact-btns li{display: inline-block; margin: 0 15px;} 
+
+@media screen and (max-width:768px){
+    #contact-section{padding:10% 7%;}
+    .contact-btns li{display: block; margin: 0px; margin-bottom: 15px;} 
+    .contact-btns button{width:90%;}
+
+} 
