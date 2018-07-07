@@ -17,11 +17,21 @@
 .hero-subtext{font-size: 1.8em; color:#ddd;}
 .hero-cta{}
 .hero-button{margin-top: 20px;}
+.mobile-menu-bars-div{margin-bottom: 15px; display: none;}
+.mobile-menu-bars:hover{cursor: pointer;}
+.mobile-menu-bars i{color:#FFF; font-size: 1.5em;}
+#mobile-nav-section{z-index: 9999;position: fixed;top: 0;left: 0;height: 100vh;width: 100vw;background: #3b8381;display: flex;align-content: center;align-items: center;justify-content: center;}
+.mobile-nav{text-align: center;}
+.mobile-nav li{list-style-type: none; color: #FFF; font-size: 2em;}
+.mobile-nav li:hover{cursor: pointer;}
+.hide-menu{position: absolute;right: 13%;top: 5%; color: #fff;font-size: 2em;}
+.hide-menu:hover{cursor: pointer;}
 
-@media screen and (max-width:400px){
+@media screen and (max-width:768px){
+    .mobile-menu-bars-div{display: block;}
     .appointment, #menu{display: none !important;}
     .hero-title{font-size: 2.5em;}
     .hero-subtext{font-size: 1.3em;}
     #header-section{min-height: 600px;}
-
-}
+    .logo-img{width:100%; max-height: unset;}
+}   

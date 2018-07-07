@@ -8,7 +8,7 @@
 .solution-blurb{font-size: 1.2em; font-family: ave-ul, sans-serif;} 
 .solution1-btn{margin-top: 20px;}
 
-@media screen and (max-width:400px){
-    .solution{padding: 5% 7%;}
+@media screen and (max-width:768px){
+        .solution{padding: 5% 7%;}
     .solution1-btn{width:90%;}
-}
+} 

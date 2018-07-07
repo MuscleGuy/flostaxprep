@@ -4,9 +4,9 @@
 .contact-btns{padding-top: 15px;}
 .contact-btns li{display: inline-block; margin: 0 15px;} 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:768px){
     #contact-section{padding:10% 7%;}
     .contact-btns li{display: block; margin: 0px; margin-bottom: 15px;} 
     .contact-btns button{width:90%;}
 
-}
+} 

@@ -25,7 +25,7 @@
             "styles": [
               "src/styles.css", "bower_components/bootstrap/dist/css/bootstrap.min.css", "bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css"
             ],
-            "scripts": ["bower_components/bootstrap/dist/js/bootstrap.min.js"]
+            "scripts": ["bower_components/bootstrap/dist/js/bootstrap.min.js", "bower_components/scroll-js/dist/scroll-min.js"]
           },
           "configurations": {
             "production": {
