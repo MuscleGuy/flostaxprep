@@ -10,7 +10,7 @@
     #footer-section .col{display: block;} 
     .footer-social-col{text-align: left !important; margin-top: 15px;}
     .footer-section{padding: 20px !important;}
-    ..mobile-consultation-row{display: block;}
+    .mobile-consultation-row{display: block;}
 } 
 
 @media screen and(max-width:330px){
