@@ -47,18 +47,18 @@ a,a:hover{text-decoration: none !important;}
 
 .absolute{position: absolute; left: 0; top: 0;}
 .relative{position: relative;}
-.color{color:#3b8381;}
+.color{color:#1187de;}
 
-.default-btn-color{padding:8px 15px; background: #3b8381; color: #ddd;}
-.default-btn{color:#fff; border:1px solid #fff; background-color: #3b8381; padding:12px;}
-.inverse-btn{color:#3b8381; border:1px solid #3b8381; background-color: #fff; padding:12px;}
+.default-btn-color{padding:8px 15px; background: #1187de; color: #ddd;}
+.default-btn{color:#fff; border:1px solid #fff; background-color: #1187de; padding:12px;}
+.inverse-btn{color:#1187de; border:1px solid #1187de; background-color: #fff; padding:12px;}
 .white-btn{color:#fff; border:1px solid #fff; background-color:transparent; padding:12px;}
 .default-btn:hover, .inverse-btn:hover, .white-btn:hover{cursor: pointer;}
 
 .flex-container{display: flex; align-content: center; justify-content: center; align-items: center;}
 .block{display: block;}
 
-.section-divider{padding-top:2.5px; padding-bottom:2.5px; padding-left: 0px !important; padding-right: 0px !important; margin: 0px; display: block; background-color:#3b8381;}
+.section-divider{padding-top:2.5px; padding-bottom:2.5px; padding-left: 0px !important; padding-right: 0px !important; margin: 0px; display: block; background-color:#1187de;}
 
 .align-left{text-align: left;}
 .align-right{text-align: right;}
