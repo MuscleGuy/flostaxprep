@@ -10,7 +10,7 @@
 .menu-link{font-size: 1.2em;}
 .menu-link a{color:#ddd; text-decoration: none;}
 .menu-link:hover a{text-decoration: none; color: #fff;}
-.appointment{border:1px solid white; padding:10px; background-color:#3b8381;}
+.appointment{border:1px solid white; padding:10px; background-color:#1187de;}
 
 #hero-content{padding:12% 10% 10%; z-index: 9;}
 .hero-title{font-size: 4.5em; color:#FFF;}
@@ -20,7 +20,7 @@
 .mobile-menu-bars-div{margin-bottom: 15px; display: none;}
 .mobile-menu-bars:hover{cursor: pointer;}
 .mobile-menu-bars i{color:#FFF; font-size: 1.5em;}
-#mobile-nav-section{z-index: 9999;position: fixed;top: 0;left: 0;height: 100vh;width: 100vw;background: #3b8381;display: flex;align-content: center;align-items: center;justify-content: center;}
+#mobile-nav-section{z-index: 9999;position: fixed;top: 0;left: 0;height: 100vh;width: 100vw;background: #1187de;display: flex;align-content: center;align-items: center;justify-content: center;}
 .mobile-nav{text-align: center;}
 .mobile-nav li{list-style-type: none; color: #FFF; font-size: 2em;}
 .mobile-nav li:hover{cursor: pointer;}
