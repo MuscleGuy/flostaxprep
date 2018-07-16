@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyDHTHPNt0FuMuOUtKJdZEjmHggAl9IRBfU",
+    authDomain: "flos-tax-prep.firebaseapp.com",
+    databaseURL: "https://flos-tax-prep.firebaseio.com",
+    projectId: "flos-tax-prep",
+    storageBucket: "flos-tax-prep.appspot.com",
+    messagingSenderId: "416560696087"
+  }
 };
 
 /*

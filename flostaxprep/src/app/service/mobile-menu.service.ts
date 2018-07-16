@@ -37,4 +37,9 @@ export class MobileMenuService {
     this.pageScrollService.start(pageScrollInstance);
   };
 
+  public scrollContact(): void {
+    let pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, '#contact-section');
+    this.pageScrollService.start(pageScrollInstance);
+  };
+
 }

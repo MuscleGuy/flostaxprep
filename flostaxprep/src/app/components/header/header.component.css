@@ -7,7 +7,8 @@
 .menu-nav{list-style-type: none;}
 .menu-nav li{display: inline-block; margin-right: 30px;}
 .menu-nav li:last-of-type{margin-right: none;}
-.menu-link{font-size: 1.2em;}
+.menu-link{font-size: 1.2em; color:#ddd; text-decoration: none;}
+.menu-link:hover{cursor: pointer;}
 .menu-link a{color:#ddd; text-decoration: none;}
 .menu-link:hover a{text-decoration: none; color: #fff;}
 .appointment{border:1px solid white; padding:10px; background-color:#1187de;}
@@ -16,6 +17,7 @@
 .hero-title{font-size: 4.5em; color:#FFF;}
 .hero-subtext{font-size: 1.8em; color:#ddd;}
 .hero-cta{}
+.hero-button a{color: #FFF; text-decoration: none;;}
 .hero-button{margin-top: 20px;}
 .mobile-menu-bars-div{margin-bottom: 15px; display: none;}
 .mobile-menu-bars:hover{cursor: pointer;}

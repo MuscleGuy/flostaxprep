@@ -3,7 +3,8 @@
 .contact-blurb{font-size: 1.2em;}
 .contact-btns{padding-top: 15px;}
 .contact-btns li{display: inline-block; margin: 0 15px;} 
-
+.solution1-btn a{color:#FFF; text-decoration: none;}
+.solution1-btn:hover a{color:#FFF; text-decoration: none;}
 @media screen and (max-width:768px){
     #contact-section{padding:10% 7%;}
     .contact-btns li{display: block; margin: 0px; margin-bottom: 15px;} 
