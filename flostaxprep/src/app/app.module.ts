@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SolutionsComponent } from './components/solutions/solutions.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -16,6 +17,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     SolutionsComponent,
     AboutComponent,
     ContactComponent,
+    ContactFormComponent,
     FooterComponent
   ],
   imports: [
