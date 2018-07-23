@@ -53,7 +53,7 @@ a,a:hover{text-decoration: none !important;}
 .default-btn{color:#fff; border:1px solid #fff; background-color: #1187de; padding:12px;}
 .inverse-btn{color:#1187de; border:1px solid #1187de; background-color: #fff; padding:12px;}
 .white-btn{color:#fff; border:1px solid #fff; background-color:transparent; padding:12px;}
-.default-btn:hover, .inverse-btn:hover, .white-btn:hover{cursor: pointer;}
+.default-btn:hover, .inverse-btn:hover, .white-btn:hover{cursor: pointer; background-color: #083454;}
 
 .flex-container{display: flex; align-content: center; justify-content: center; align-items: center;}
 .block{display: block;}

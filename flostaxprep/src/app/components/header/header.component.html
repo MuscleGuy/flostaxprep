@@ -13,16 +13,16 @@
                   <picture>
                     <source media="(min-width: 650px)" srcset="/../../assets/header/logo.png">
                     <source media="(min-width: 465px)" srcset="/../../assets/header/logo.png">
-                    <img class="logo-img" src="/../../assets/header/logo.png">
+                    <img (click)="scrollToHome()" class="logo-img" src="/../../assets/header/logo.png">
                   </picture>                
               </div>
           
               <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 text-right">
                 <nav id="menu" class="menu-nav">
-                  <li class="menu-link"><a href="#">solutions</a></li>
-                  <li class="menu-link"><a href="#">about</a></li>
-                  <li class="menu-link"><a href="#">contact</a></li>
-                  <li class="menu-link appointment"><a href="#">make an appointment</a></li>
+                  <li class="menu-link" (click)="scrollToSolutions()">solutions</li>
+                  <li class="menu-link" (click)="scrollToAbout()">about</li>
+                  <li class="menu-link" (click)="scrollToContact()">contact</li>
+                  <li class="menu-link default-btn"><a href="mailto:flostaxprep@gmail.com">make an appointment</a></li>
             </nav>
               </div>
 </div>
@@ -30,10 +30,10 @@
 <div id="hero-content" class="hero-content relative height-100">
 
   <div class="hero-title">Tax Filing Services <span class="color">Nationwide</span></div>
-  <div class="hero-subtext">Providing top quality individual and corporate income tax services <br>that always get your the Max!</div>
+  <div class="hero-subtext">Providing top quality individual and corporate income tax services <br>that always get you the Max!</div>
   <div class="hero-cta">
-    <button class="hero-button default-btn" (click)=toggleContactForm()>
-      Schedule an Appointment
+    <button class="hero-button default-btn">
+      <a href="mailto:flostaxprep@gmail.com">Schedule an Appointment</a>
     </button>
   </div>
 
@@ -47,7 +47,7 @@
       <li (click)="scrollToHome()" class="mobile-link">home</li>
       <li (click)="scrollToSolutions()" class="mobile-link">solutions</li>
       <li (click)="scrollToAbout()" class="mobile-link">about</li>
-      <li (click)="scrollToAppointment()" class="mobile-link appointment-mobile">appointment</li>
+      <li class="mobile-link appointment-mobile"><a href="mailto:flostaxprep@gmail.com">appointment</a></li>
   </nav>
 </section>
 

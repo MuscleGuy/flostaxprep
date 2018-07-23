@@ -4,7 +4,7 @@
 .mobile-consultation-row col{text-align: center !important;}
 .mobile-consultation-row:hover{cursor: pointer;}
 .mobile-consultation-div{text-align: center;}
-.mobile-consultation{text-align: center;}
+.mobile-consultation{text-align: center; color: #FFF;}
 
 @media screen and (max-width:768px){
     #footer-section .col{display: block;} 
